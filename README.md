@@ -129,10 +129,9 @@ make check       # fmt check, clippy and tests
 
 ## Documentation
 
-- [`backend/README.md`](backend/README.md): API reference, configuration and development setup
-- [`backend/docs/`](backend/docs/README.md): architecture diagrams (PlantUML) and a PDF write-up
-- [`backend/PLAN.md`](backend/PLAN.md): design decisions and milestones
-- [`frontend/README.md`](frontend/README.md): client setup, Make targets and layout
+- [`backend/README.md`](https://github.com/BanyaiBence/rust-todo-backend/blob/master/README.md): API reference, configuration and development setup
+- [`backend/docs/`](https://github.com/BanyaiBence/rust-todo-backend/blob/master/docs/README.md): architecture diagrams (PlantUML) and a PDF write-up
+- [`frontend/README.md`](https://github.com/BanyaiBence/rust-todo-frontend/blob/master/README.md): client setup, Make targets and layout
 
 ## Working with submodules
 
@@ -141,6 +140,3 @@ git submodule update --remote --merge   # pull the latest commit of each submodu
 git add backend frontend                # record the new submodule commits here
 git commit -m "Bump submodules"
 ```
-
-Changes to the backend or frontend themselves are committed and pushed in their own
-repositories first; this repository only records which commit of each it uses.
