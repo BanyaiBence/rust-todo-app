@@ -1,0 +1,6 @@
+[submodule "rust-todo-backend"]
+	path = rust-todo-backend
+	url = git@github.com:BanyaiBence/rust-todo-backend.git
+[submodule "rust-todo-frontend"]
+	path = rust-todo-frontend
+	url = git@github.com:BanyaiBence/rust-todo-frontend.git
