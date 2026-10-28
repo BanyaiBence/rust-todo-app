@@ -8,7 +8,7 @@ This repository ties the two parts together as Git submodules:
 | Directory   | Repository                                                                   | What it is                                  |
 | ----------- | ---------------------------------------------------------------------------- | ------------------------------------------- |
 | `backend/`  | [rust-todo-backend](https://github.com/BanyaiBence/rust-todo-backend)        | JSON API: axum, sqlx, PostgreSQL, JWT       |
-| `frontend/` | [todo-frontend](https://github.com/BanyaiBence/todo-frontend)                | Desktop client: Dioxus 0.7, reqwest         |
+| `frontend/` | [rust-todo-frontend](https://github.com/BanyaiBence/rust-todo-frontend)                | Desktop client: Dioxus 0.7, reqwest         |
 
 Each submodule has its own README with full details. This file gives the overview.
 
