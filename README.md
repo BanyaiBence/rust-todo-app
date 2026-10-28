@@ -62,7 +62,7 @@ response examples and the full list of status codes.
 ### Clone
 
 ```sh
-git clone --recurse-submodules <this-repository-url>
+git clone --recurse-submodules git@github.com:BanyaiBence/rust-todo-app.git
 # or, in an existing clone:
 git submodule update --init --recursive
 ```
